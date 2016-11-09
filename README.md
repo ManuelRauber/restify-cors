@@ -2,8 +2,8 @@
 
 > CORS middleware with full [W3C spec](www.w3.org/TR/cors) support.
 
-[![NPM](http://img.shields.io/npm/v/restify-cors.svg?style=flat)](https://npmjs.org/package/restify-cors-middleware)
-[![License](http://img.shields.io/npm/l/restify-cors.svg?style=flat)](https://github.com/TabDigital/restify-cors-middleware)
+[![NPM](http://img.shields.io/npm/v/restify-cors.svg?style=flat)](https://npmjs.org/package/restify-cors)
+[![License](http://img.shields.io/npm/l/restify-cors.svg?style=flat)](https://github.com/ManuelRauber/restify-cors)
 
 [![Build Status](http://img.shields.io/travis/ManuelRauber/restify-cors.svg?style=flat)](http://travis-ci.org/ManuelRauber/restify-cors)
 [![Dependencies](http://img.shields.io/david/ManuelRauber/restify-cors.svg?style=flat)](https://david-dm.org/ManuelRauber/restify-cors)
