@@ -20,7 +20,7 @@ This project has been forked from https://github.com/TabDigital/restify-cors-mid
 ## Usage
 
 ```js
-var corsMiddleware = require('restify-cors-middleware');
+var corsMiddleware = require('restify-cors');
 
 var cors = corsMiddleware({
   preflightMaxAge: 5, // Optional
