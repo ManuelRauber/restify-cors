@@ -20,9 +20,9 @@ This project has been forked from https://github.com/TabDigital/restify-cors-mid
 ## Usage
 
 ```js
-var corsMiddleware = require('restify-cors');
+var restifyCors = require('restify-cors');
 
-var cors = corsMiddleware({
+var cors = restifyCors({
   preflightMaxAge: 5, // Optional
   origins: ['http://api.myapp.com', 'http://web.myapp.com'], // defaults to ['*'] to allow all origins
   allowHeaders: ['API-Token'],

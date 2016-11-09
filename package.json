@@ -15,6 +15,7 @@
     "url": "https://github.com/ManuelRauber/restify-cors.git"
   },
   "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "test": "./node_modules/.bin/mocha"
   },
