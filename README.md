@@ -1,15 +1,21 @@
-# restify-cors-middleware
+# restify-cors
 
 > CORS middleware with full [W3C spec](www.w3.org/TR/cors) support.
 
-[![NPM](http://img.shields.io/npm/v/restify-cors-middleware.svg?style=flat)](https://npmjs.org/package/restify-cors-middleware)
-[![License](http://img.shields.io/npm/l/restify-cors-middleware.svg?style=flat)](https://github.com/TabDigital/restify-cors-middleware)
+[![NPM](http://img.shields.io/npm/v/restify-cors.svg?style=flat)](https://npmjs.org/package/restify-cors-middleware)
+[![License](http://img.shields.io/npm/l/restify-cors.svg?style=flat)](https://github.com/TabDigital/restify-cors-middleware)
 
-[![Build Status](http://img.shields.io/travis/TabDigital/restify-cors-middleware.svg?style=flat)](http://travis-ci.org/TabDigital/restify-cors-middleware)
-[![Dependencies](http://img.shields.io/david/TabDigital/restify-cors-middleware.svg?style=flat)](https://david-dm.org/TabDigital/restify-cors-middleware)
-[![Dev dependencies](http://img.shields.io/david/dev/TabDigital/restify-cors-middleware.svg?style=flat)](https://david-dm.org/TabDigital/restify-cors-middleware)
-[![Peer dependencies](http://img.shields.io/david/peer/TabDigital/restify-cors-middleware.svg?style=flat)](https://david-dm.org/TabDigital/restify-cors-middleware)
-[![Known Vulnerabilities](https://snyk.io/package/npm/restify-cors-middleware/badge.svg)](https://snyk.io/package/npm/restify-cors-middleware)
+[![Build Status](http://img.shields.io/travis/ManuelRauber/restify-cors.svg?style=flat)](http://travis-ci.org/ManuelRauber/restify-cors)
+[![Dependencies](http://img.shields.io/david/ManuelRauber/restify-cors.svg?style=flat)](https://david-dm.org/ManuelRauber/restify-cors)
+[![Dev dependencies](http://img.shields.io/david/dev/ManuelRauber/restify-cors.svg?style=flat)](https://david-dm.org/ManuelRauber/restify-cors)
+[![Peer dependencies](http://img.shields.io/david/peer/ManuelRauber/restify-cors.svg?style=flat)](https://david-dm.org/ManuelRauber/restify-cors)
+
+This project has been forked from https://github.com/TabDigital/restify-cors-middleware.
+
+## Changes
+
+* Supports restify 4.2
+* Usage with TypeScript
 
 ## Usage
 
@@ -17,8 +23,8 @@
 var corsMiddleware = require('restify-cors-middleware');
 
 var cors = corsMiddleware({
-  preflightMaxAge: 5, //Optional
-  origins: ['http://api.myapp.com', 'http://web.myapp.com'],
+  preflightMaxAge: 5, // Optional
+  origins: ['http://api.myapp.com', 'http://web.myapp.com'], // defaults to ['*'] to allow all origins
   allowHeaders: ['API-Token'],
   exposeHeaders: ['API-Token-Expiry']
 });
@@ -29,5 +35,5 @@ server.use(cors.actual);
 
 ## Compliance to the spec
 
-See [unit tests](https://github.com/TabDigital/restify-cors-middleware/tree/master/test)
+See [unit tests](https://github.com/ManuelRauber/restify-cors/tree/master/test)
 for examples of preflight and actual requests.
