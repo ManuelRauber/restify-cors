@@ -20,7 +20,8 @@
     "test": "./node_modules/.bin/mocha"
   },
   "peerDependencies": {
-    "restify": "2.6.x - 4.x.x"
+    "restify": "2.6.x - 4.x.x",
+    "@types/restify": "2.x.x"
   },
   "devDependencies": {
     "mocha": "~3.1.0",
