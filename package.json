@@ -1,6 +1,6 @@
 {
   "name": "restify-cors",
-  "version": "0.0.7",
+  "version": "1.0.0",
   "author": "Manuel Rauber <manuel.rauber@thinktecture.com>",
   "license": "MIT",
   "description": "Common middlewares for all Node.js web services",
@@ -14,12 +14,12 @@
     "type": "git",
     "url": "https://github.com/ManuelRauber/restify-cors.git"
   },
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha"
   },
   "peerDependencies": {
-    "restify": "2.6.x - 4.2.x"
+    "restify": "2.6.x - 4.x.x"
   },
   "devDependencies": {
     "mocha": "~3.1.0",
