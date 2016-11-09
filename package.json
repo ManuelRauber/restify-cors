@@ -1,6 +1,6 @@
 {
   "name": "restify-cors",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Manuel Rauber <manuel.rauber@thinktecture.com>",
   "license": "MIT",
   "description": "Common middlewares for all Node.js web services",
